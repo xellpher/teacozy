@@ -16,19 +16,10 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: black;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-}
-
-li a {
-  display: block;
+  z-index: 1;
 }
 
 nav {
-  text-decoration: undeline;
+  text-decoration: underline;
+  color: seashell;
 }
