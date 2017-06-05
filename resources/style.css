@@ -5,6 +5,8 @@ body {
   opacity: 0.9;
   font-family: Helvetica;
   font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-container {
@@ -27,4 +29,17 @@ header {
 nav a {
   text-decoration: underline;
   color: seashell;
+}
+
+.flex-container {
+  background-image: image("./resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+}
+
+.mission-container {
+  display: flex;
+  align-items: center;
+  background-color: black;
 }
