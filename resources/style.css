@@ -28,6 +28,15 @@ body {
   padding-top: 3px;
 }
 
+.box2 {
+  display: flex;
+}
+
+#featureds {
+  align-items: center;
+  justify-content: center;
+}
+
 .photo-grid {
   display: flex;
   width: 1000px;
