@@ -34,6 +34,7 @@ body {
 
 .box2 {
   width: 1000px;
+  align-content: center;
 }
 
 .photo-grid-item {
@@ -42,7 +43,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between center;
   }
 
 nav a {
