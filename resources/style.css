@@ -35,7 +35,6 @@ body {
 .box2 {
   display: flex;
   width: 1000px;
-  align-content: center;
 }
 
 .photo-grid-item {
