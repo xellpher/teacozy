@@ -28,9 +28,13 @@ body {
   padding-top: 3px;
 }
 
-.main-content {
-  background-image: image("./resoures/images/img-mission-background.jpg");
-}
+  .photo-grid-item {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 nav a {
   display: flex;
