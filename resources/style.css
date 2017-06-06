@@ -30,10 +30,6 @@ body {
 
 .photo-grid {
   display: flex;
-}
-
-.box2 {
-  display: flex;
   width: 1000px;
 }
 
