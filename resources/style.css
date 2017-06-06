@@ -28,16 +28,15 @@ body {
   padding-top: 3px;
 }
 
-nav a {
-  text-decoration: underline;
-  color: seashell;
+.main-content {
+  background-image: image("./resoures/images/img-mission-background.jpg");
 }
 
-.flex-container {
-  background-image: image("./resources/images/img-mission-background.jpg");
-  height: 700px;
-  width: 1200px;
+nav a {
   display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  color: seashell;
 }
 
 .mission-container {
